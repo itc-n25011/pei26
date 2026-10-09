@@ -1,14 +1,15 @@
-id_d =  id(b) 
-if id_a = id(b):
+id_d = id(b)
+
+if id_a == id(b):
     result = 'A'
 elif id(a) == id(b):
     result = 'B'
 elif id_a == id(a):
-    result = 'c'
-else: 
-    result = 'c'
+    result = 'C'
+else:
     result = 'D'
-print(result) # c
+
+print(result)
 
 print(id(a))
 print(id_a)
